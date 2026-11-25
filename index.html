@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="الموقع الشخصي — نبذة عني ومهاراتي ومشاريعي وطرق التواصل.">
+  <meta name="theme-color" content="#0b1220">
+  <title>موقعي الشخصي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">موقعي<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+    <nav id="nav">
+      <a href="#about">من أنا</a>
+      <a href="#skills">المهارات</a>
+      <a href="#projects">المشاريع</a>
+      <a href="#contact">تواصل معي</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="تغيير المظهر">◐</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">أهلًا بك في موقعي الشخصي</p>
+        <h1>مرحبًا، أنا <span>[اكتب اسمك هنا]</span></h1>
+        <h2>أتعلم وأصنع أشياء رقمية مميزة</h2>
+        <p class="intro">هنا يمكنك التعرف عليّ، واستكشاف مهاراتي ومشاريعي، والتواصل معي.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">شاهد مشاريعي</a>
+          <a class="btn secondary" href="#contact">تواصل معي</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orb">✦</div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div></div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">نبذة مختصرة</p>
+      <h2>من أنا؟</h2>
+      <p class="section-text">اكتب هنا نبذة قصيرة عن نفسك واهتماماتك وما تحب تعلمه أو إنجازه. يمكنك تعديل هذا النص بسهولة من ملف index.html.</p>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">ما أتعلمه</p>
+      <h2>مهاراتي</h2>
+      <div class="cards">
+        <article class="card"><div class="card-icon">⌘</div><h3>تصميم الويب</h3><p>بناء صفحات مرتبة وسهلة الاستخدام.</p></article>
+        <article class="card"><div class="card-icon">〈〉</div><h3>HTML وCSS</h3><p>إنشاء هيكل الموقع وتنسيق مظهره.</p></article>
+        <article class="card"><div class="card-icon">JS</div><h3>JavaScript</h3><p>إضافة التفاعل والوظائف للموقع.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">أعمالي</p>
+      <h2>مشاريعي</h2>
+      <div class="cards">
+        <article class="card project"><span class="project-tag">مشروع 01</span><h3>مشروعي الأول</h3><p>اكتب وصفًا مختصرًا لمشروعك الأول هنا.</p><a href="#contact">استفسر عن المشروع ←</a></article>
+        <article class="card project"><span class="project-tag">مشروع 02</span><h3>مشروعي الثاني</h3><p>أضف تفاصيل مشروع آخر أو احذف البطاقة إن لم تكن تحتاجها.</p><a href="#contact">استفسر عن المشروع ←</a></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">يسعدني تواصلك</p>
+      <h2>لنتواصل معًا</h2>
+      <p class="section-text">أضف وسيلة التواصل التي تفضلها، ولا تضع معلومات شخصية لا تريد نشرها للعامة.</p>
+      <a class="btn primary" href="mailto:your-email@example.com">راسلني عبر البريد</a>
+      <p class="small-note">استبدل your-email@example.com ببريد مخصص للتواصل.</p>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> [اسمك]. جميع الحقوق محفوظة.</p><a href="#home">العودة للأعلى ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
